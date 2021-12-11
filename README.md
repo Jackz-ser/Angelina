@@ -36,7 +36,7 @@ CLICK THIS LOGO TO JOIN OUR SUPPORT GROUP🎗️
 
 
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@AmeenSer/Miss-helena?v=1)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ItsMeRafi/Miss-Helena-QR?v=1)
   
 
 
