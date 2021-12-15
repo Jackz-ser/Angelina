@@ -111,7 +111,12 @@
             "required": true,
             "value": "false"
         },
-              "BGM_DURATION": {
+        "CMD_LIST": {
+            "description": "You can change Command list emojis like: help/❤️/😅/🍃/💌.)",
+            "required": true,
+            "value": "Helena/🎗️/💝/✨/📝"
+        },
+        "BGM_DURATION": {
             "description": "FUNY BGM DURATION  codded by SAIDALI",
             "required": false,
             "value": "39999600"
