@@ -44,12 +44,7 @@
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
             "value": "true"
-        },
-        "ALIVE_BUTTON": {
-            "description": "Set the alive message two name",
-            "required": true,
-            "value": "Hello"
-        },
+        },        
         "V_HEADER": {
             "description": "Set the Header name logo",
             "required": true,
