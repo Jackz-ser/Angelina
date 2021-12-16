@@ -25,11 +25,6 @@
             "required": true,
             "value": "en"
         },
-        "ALL_IMG": {
-            "description": "Change This Image Link If You Want To Change Audio Bc Thumbnail",
-            "required": true,
-            "value": "https://te.legra.ph/file/a9e518393144caf1ac505.jpg"
-        },
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
