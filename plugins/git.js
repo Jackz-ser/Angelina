@@ -14,7 +14,7 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,},
 
     var r_text = new Array ();
 
-    r_text[0] = "💖 *To check update .update* ✅\n💖 *To update Bot .update now✅ *\n\n🎗️ *𝐆𝐢𝐭𝐡𝐮𝐛 𝐋𝐢𝐧𝐤 : https://github.com/Luciferking1/Miss-Helenaa✅ *\n\n🎗️ *𝐀𝐮𝐝𝐢𝐨 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : https://github.com/Luciferking1/Miss-Helenaa/tree/master/uploads* ✅\n\n* 🎗️𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : https://github.com/Luciferking1/Miss-Helenaa/tree/master/Amalser* ✅"; 
+    r_text[0] = "*https://github.com/Luciferking1/Miss-Helenaa*"; 
  
     var i = Math.floor(1*Math.random())
 
@@ -33,7 +33,7 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,},
 
             var r_text = new Array ();
 
-                 r_text[0] = "💖 *To check update .update* ✅\n\n💖 *To update Bot .update now* ✅\n\n\n🎗️ *𝐆𝐢𝐭𝐡𝐮𝐛 𝐋𝐢𝐧𝐤 : https://github.com/Luciferking1/Miss-Helenaa* ✅\n\n🎗️ *𝐀𝐮𝐝𝐢𝐨 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : https://github.com/Luciferking1/Miss-Helenaa/tree/master/uploads* ✅\n\n* 🎗️𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 : https://github.com/Luciferking1/Miss-Helenaa/tree/master/Amalser* ✅"; 
+                 r_text[0] = "*https://github.com/Luciferking1/miss-helena*"; 
 
                      var i = Math.floor(1*Math.random())
 
