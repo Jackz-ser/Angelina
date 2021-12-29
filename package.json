@@ -1,14 +1,14 @@
 {
-  "name": "JulieMwol",
+  "name": "Miss Helena",
   "version": "7.3.6",
-  "description": "Julie Mwol is the Modified Version of WhatsAsena, Made By @farhan-dqz with Baileys.",
+  "description": "Miss Helena is the Modified Version of WhatsAsena, Made By Rafi with Baileys.",
   "main": "./Julie-Mwol/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/farhan-dqz/Julie-Mwol.git"
+    "url": "git+https://github.com/Luciferking1/Miss.Helena.git"
   },
   "keywords": [
     "whatsapp",
@@ -17,8 +17,8 @@
     "asena",
     "WhatsAsena"
   ],
-  "author": "farhan-dqz",
-  "developer": "@TOXIC-DEVIL / @farhan-dqz",
+  "author": "Rafi",
+  "developer": "Rafi / Ameen",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/farhan-dqz/Julie-Mwol/issues"
