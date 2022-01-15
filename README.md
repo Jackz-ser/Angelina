@@ -28,7 +28,7 @@
 CLICK THIS LOGO TO JOIN OUR SUPPORT GROUP🎗️
     <br>
 <br>
-  <a href="https://chat.whatsapp.com/DqtTdFz3yTvDNi1QihM0EP" target="blank"><img align="center" src="https://i.imgur.com/URkrOnx.png" alt="kyrie.baran" height="200" width="300" /></a>
+  <a href="https://chat.whatsapp.com/DqtTdFz3yTvDNi1QihM0EP" target="blank"><img align="center" src="https://i.imgur.com/3jHCuxq.png" alt="kyrie.baran" height="200" width="300" /></a>
 </p>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jackz-ser/Broken-Jackz)
