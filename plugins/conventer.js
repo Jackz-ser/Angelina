@@ -55,7 +55,7 @@ function webp2mp4File(path) {
                 const result = 'https:' + $('div#output > p.outfile > video > source').attr('src')
                 resolve({
                     status: true,
-                    message: "Made by WhatsAsena",
+                    message: "Made by Angelina",
                     result: result
                 })
             }).catch(reject)
@@ -185,7 +185,7 @@ else if (Config.WORKTYPE == 'public') {
             await Axios({ method: "GET", url: rest.result, responseType: "stream"}).then(({ data }) => {
                 const saving = data.pipe(fs.createWriteStream('/root/WhatsAsenaDuplicated/stweb.mp4'))
                 saving.on("finish", async () => {
-                    await message.client.sendMessage(mid, fs.readFileSync('/root/WhatsAsenaDuplicated/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: '𝐌𝐚𝐝𝐞 𝐁𝐲 𝐌𝐢𝐬𝐬 𝐇𝐞𝐥𝐞𝐧𝐚', quoted: message.data })
+                    await message.client.sendMessage(mid, fs.readFileSync('/root/WhatsAsenaDuplicated/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: '🅼︎🅰︎🅳︎🅴︎ 🅱︎🆈︎ 🅰︎🅽︎🅶︎🅴︎🅻︎🅸︎🅽︎🅰︎', quoted: message.data })
                     if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
                     if (fs.existsSync('/root/WhatsAsenaDuplicated/stweb.mp4')) fs.unlinkSync('/root/WhatsAsenaDuplicated/stweb.mp4')
                 })
@@ -201,13 +201,13 @@ else if (Config.WORKTYPE == 'public') {
         doc_desc = 'CONVERT TO DOCUMENT AND ADD GIVEN NAME'
         plk = '```NAMING AND DOCIFYING```'
         afn = '```PLEASE REPLY TO A AUDIO```'
-        usge = '```.doc Helena *replace helena with desired name*```'
+        usge = '```.doc Angelina *replace Angelina with desired name*```'
     }
     if (Config.LANG == 'ML') {
         doc_desc = 'ഡോക്യുമെന്റിലേക്ക് പരിവർത്തനം ചെയ്യുകയും നൽകിയപേര് ചേർക്കുകയും ചെയ്യുക'
         afn = '```ഒരു ഓഡിയോയ്ക്ക് മറുപടി നൽകുക```'
         plk = '```ഡോക്യുമെന്റിലേക്ക് പരിവർത്തനം ചെയ്യുകയും പേര് നൽകുകയും ചെയ്യുന്നു```'
-        usge = '```.doc Helena```'
+        usge = '```.doc Angelina```'
     }
     
      Asena.addCommand({pattern: 'doc ?(.*)', fromMe: false, desc: doc_desc , usage : usge}, (async (message, match) => { 
