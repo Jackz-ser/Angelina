@@ -14,7 +14,7 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,},
 
     var r_text = new Array ();
 
-    r_text[0] = "*https://github.com/Luciferking1/Miss-Helenaa*"; 
+    r_text[0] = "*https://github.com/Jackz-ser/Broken-Jackz*"; 
  
     var i = Math.floor(1*Math.random())
 
@@ -33,7 +33,7 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,},
 
             var r_text = new Array ();
 
-                 r_text[0] = "*https://github.com/Luciferking1/miss-helena*"; 
+                 r_text[0] = "*https://github.com/Jackz-ser/Broken-Jackz*"; 
 
                      var i = Math.floor(1*Math.random())
 
