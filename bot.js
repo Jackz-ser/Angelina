@@ -176,7 +176,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
-        var ansk = 'https://gist.github.com/Luciferking1/daf327812f961f07e479fb7bba6c9546/raw'
+        var ansk = 'https://raw.githubusercontent.com/Jackz-ser/Broken-Angelina/master/daily'
          
         while (getGMTh == 9 && getGMTm == 01) {
             const {data} = await axios(ansk)
