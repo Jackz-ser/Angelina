@@ -3,9 +3,9 @@
     "description": "Anjelina is the modified Version of WhatsAsena, Made By Jackz and Broken with Baileys.",
     "logo": "https://i.imgur.com/0mqbyOl.jpeg",
     "keywords": ["whatsapp", "userbot", "julie", "WhatsAsena", "mwol", "bot", "ai"],
-    "repository": "https://github.com/Jackz-ser/Broken-Jackz",
-    "website":   "https://github.com/Jackz-ser/Broken-Jackz",
-    "success_url": "https://github.com/Jackz-ser/Broken-Jackz",
+    "repository": "https://github.com/Jackz-ser/Angelina",
+    "website":   "https://github.com/Jackz-ser/Angelina",
+    "success_url": "https://github.com/Jackz-ser/Angelina",
     "stack": "container",
     "env": {
         "ANGELINA_CODE": {
@@ -16,8 +16,8 @@
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
             "required": false
         },
-         "YT_PASSWORD": {
-            "description": "Password is afamk type it in here. Password afamk എന്ന് തന്നെ അടിക്കുക അല്ലേൽ ബോട്ട് error aavum",
+         "PASSWORD": {
+            "description": "Password is jackz type it in here. Password jackz എന്ന് തന്നെ അടിക്കുക അല്ലേൽ ബോട്ട് error aavum",
             "required": true
         },
         "LANGUAGE": {
@@ -28,7 +28,7 @@
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
-            "value": "true"
+            "value": "false"
         },
         "OWNER_NAME": {
             "description": "Fill your name in here. it will show your name in .owner command reply",
@@ -38,7 +38,7 @@
         "AUTO_STICKER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
-            "value": "true"
+            "value": "false"
         },        
         "V_HEADER": {
             "description": "Set the Header name logo",
