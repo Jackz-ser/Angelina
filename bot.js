@@ -168,7 +168,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```type``` *HEY BRO AN UPDATE AVAILABLE FOR ANGELINA*' + degisiklikler + '```', MessageType.text
+                        '*HEY BRO AN UPDATE AVAILABLE FOR ANGELINA*' + degisiklikler + '```', MessageType.text
                     ); 
                 } 
           }
