@@ -16,8 +16,8 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
   if (config.LANG == 'EN') {
     
     plk_desc = 'change reply message BGM mode'
-    BGM_ONE = 'BGM TYPE CHANGED TO MODE 1 '
-    BGM_TWO = '𝐁𝐆𝐌 𝐭𝐲𝐩𝐞 𝐜𝐡𝗮𝐧𝐠𝐞𝐝 𝐭𝐨 𝟐𝐧𝐝 𝐦𝐨𝐝𝐞 𝐏𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭 5 𝐌𝐢𝐧 𝐭𝐨 𝐫𝐞𝐬𝐭𝐚𝐫𝐭 ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴄᴋ ᴀᴅᴅᴇᴅ ✅️'
+    BGM_ONE = 'BGM TYPE CHANGED TO MODE 1 \n RESTARTING...'
+    BGM_TWO = 'BGM TYPE CHANGED TO MODE 2 \n RESTARTING...'
     }
 
     if (config.LANG == 'ML') {
