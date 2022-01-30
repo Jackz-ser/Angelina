@@ -1,17 +1,101 @@
-const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
-const Config = require('../config');
-const axios = require('axios');
-const IG_DESC = "Downloads Image/Video From Instagram"
+const Asena = require("../Utilis/events")
+const { MessageType, Mimetype } = require("@adiwajshing/baileys")
+const { getBuffer, igStory, downVideo } = require("../Utilis/download")
+const { instagram } = require("../Utilis/Misc")
+const Language = require("../language")
+const Lang = Language.getString("insta")
+Asena.addCommand(
+  {
+    pattern: "insta ?(.*)",
+    fromMe: true,
+    desc: Lang.INSTA_DESC,
+  },
+  async (message, match) => {
+    match = match || message.reply_message.text
+    if (!match || !/instagram.com/.test(match))
+      return await message.sendMessage(Lang.NEED_REPLY)
+    await message.sendMessage(Lang.DOWNLOADING)
+    const urls = await instagram(match)
+    if (!urls) return await message.sendMessage(Lang.NOT_FOUND)
+    urls.forEach(async (url) => {
+      let { buffer, type } = await getBuffer(url)
+      if (!buffer) await message.sendMessage(url)
+      else if (type == "image")
+        await message.sendMessage(
+          buffer,
+          { mimetype: Mimetype.jpeg },
+          MessageType.image
+        )
+      else
+        await message.sendMessage(
+          buffer,
+          { mimetype: Mimetype.mp4 },
+          MessageType.video
+        )
+    })
+  }
+)
 
-Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: IG_DESC }, async (message, match) => {
-    //if(match[1] == '') return
-    let { data, type } = await instaGram(match[1], 'f3eaf19231f6201c');
-    //if(type == undefined) return 
-    if (type === 'image') { await message.sendMessage(data, MessageType.image, { caption: Config.AFN }) }
-    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: Config.AFN }) }
-});
-//const axios = require('axios')
-async function instaGram(url, key){
-const _0x477b=['135767iKnckP','673rRPNhH','data','1oVaSnc','1wFsRJN','5ZNKfRV','1082797kEqNzc','33405qKXkqX','get','536467jgcujZ','1509050KmQvtd','1sEPhwh','&APIKEY=','510217irWqHr','1753kjFBCd','20fokBTd'];function _0x34d6(_0x4f9dd8,_0x1e6344){return _0x34d6=function(_0x477b29,_0x34d6ab){_0x477b29=_0x477b29-0x128;let _0x12f50b=_0x477b[_0x477b29];return _0x12f50b;},_0x34d6(_0x4f9dd8,_0x1e6344);}const _0x88f305=_0x34d6;(function(_0x346d1d,_0xbe28c5){const _0x7c775f=_0x34d6;while(!![]){try{const _0x4a8522=parseInt(_0x7c775f(0x129))*-parseInt(_0x7c775f(0x136))+parseInt(_0x7c775f(0x12f))*parseInt(_0x7c775f(0x137))+parseInt(_0x7c775f(0x128))*parseInt(_0x7c775f(0x12d))+parseInt(_0x7c775f(0x12e))+parseInt(_0x7c775f(0x133))*parseInt(_0x7c775f(0x131))+parseInt(_0x7c775f(0x12c))*-parseInt(_0x7c775f(0x132))+-parseInt(_0x7c775f(0x135))*-parseInt(_0x7c775f(0x12b));if(_0x4a8522===_0xbe28c5)break;else _0x346d1d['push'](_0x346d1d['shift']());}catch(_0x1daac9){_0x346d1d['push'](_0x346d1d['shift']());}}}(_0x477b,0xc048d));const res=await axios('https://xteam.xyz/dl/ig?url='+url+_0x88f305(0x134)+key),{data,type}=res[_0x88f305(0x12a)]['result'][_0x88f305(0x12a)][0x0],buffer=await axios[_0x88f305(0x130)](data,{'responseType':'arraybuffer'});return{'data':buffer[_0x88f305(0x12a)],'type':type};
-}
+Asena.addCommand(
+  { pattern: "story ?(.*)", fromMe: true, desc: Lang.STORY_DESC },
+  async (message, match) => {
+    match = !message.reply_message ? match : message.reply_message.text
+    if (
+      match === "" ||
+      (!match.includes("/stories/") && match.startsWith("http"))
+    )
+      return await message.sendMessage(Lang.USERNAME)
+    if (match.includes("/stories/")) {
+      let s = match.indexOf("/stories/") + 9
+      let e = match.lastIndexOf("/")
+      match = match.substring(s, e)
+    }
+    let json = await igStory(match)
+    if (json.error) return await message.sendMessage(json.error)
+    if (json.medias.length > 0) {
+      await message.sendMessage(
+        Lang.DOWNLOADING_STORY.format(json.medias.length)
+      )
+      for (let media of json.medias) {
+        let { buffer, type } = await getBuffer(media.url)
+        if (type == "video")
+          await message.sendMessage(
+            buffer,
+            { mimetype: Mimetype.mp4 },
+            MessageType.video
+          )
+        else if (type == "image")
+          await message.sendMessage(
+            buffer,
+            { mimetype: Mimetype.jpeg },
+            MessageType.image
+          )
+      }
+    }
+  }
+)
+
+Asena.addCommand(
+  {
+    pattern: "fb ?(.*)",
+    fromMe: true,
+    desc: Lang.FB_DESC,
+  },
+  async (message, match) => {
+    match = !message.reply_message ? match : message.reply_message.text
+    if (match === "") return await message.sendMessage(Lang.NEED_REPLY)
+    await message.sendMessage(Lang.DOWNLOADING)
+    let links = await downVideo(match)
+    if (links.length == 0) return await message.sendMessage(Lang.NOT_FOUND)
+    let { buffer, size } = await getBuffer(links[0])
+    if (size > 100)
+      return await message.sendMessage(
+        Lang.SIZE.format(size, links[0], links[1])
+      )
+    return await message.sendMessage(
+      buffer,
+      { quoted: message.quoted, caption: Lang.CAPTION.format(links[1] || "") },
+      MessageType.video
+    )
+  }
+)
