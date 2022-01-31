@@ -44,7 +44,7 @@ CLICK THIS LOGO TO JOIN OUR SUPPORT GROUP🎗️
 <a href="no links" target="blank"><img align="center" src="/language/Deploy.png" alt="dont touch it" height="112" width="310" /></a>
   <div>
 <br>
-<a href="https://github.com/Jackz-ser/deployer"><img align="center" src="/language/repo.png" alt="Fork and deploy" height="112" width="300" /></a>
+<a href="https://github.com/Jackz-ser/deployer"><img align="center" src="/language/repo.jpg" alt="Fork and deploy" height="112" width="300" /></a>
    <br>
   
 
