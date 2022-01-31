@@ -18,7 +18,6 @@ const axios = require('axios');
 
 const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 
-else if (Config.WORKTYPE == 'public') {
    Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
         
         let pp
