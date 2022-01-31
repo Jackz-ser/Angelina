@@ -31,12 +31,21 @@ CLICK THIS LOGO TO JOIN OUR SUPPORT GROUP🎗️
   <a href="https://chat.whatsapp.com/DqtTdFz3yTvDNi1QihM0EP" target="blank"><img align="center" src="https://i.imgur.com/3jHCuxq.png" alt="kyrie.baran" height="200" width="300" /></a>
 </p>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jackz-ser/Angelina)
 
-
-
+<div align="center">
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@BLAICN/Angelina?v=1)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jackz-ser/deployer)
+<br>
+<div>
+<br>
+  
+<a href="https://raganork-api.herokuapp.com/api/deploy" target="blank"><img align="center" src="/language/Deploy.png" alt="Deploy bot" height="112" width="310" /></a>
+  <div>
+<br>
+<a href="https://github.com/Jackz-ser/deployer"><img align="center" src="/language/repo.png" alt="Fork and deploy" height="112" width="300" /></a>
+   <br>
   
 
 
