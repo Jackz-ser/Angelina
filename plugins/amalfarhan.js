@@ -18,7 +18,7 @@ const axios = require('axios');
 
 const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 
-Amalser.addCommand({pattern: 'look', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Amalser.addCommand({pattern: 'alive', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -242,7 +242,7 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 
 │
 
-┣𝕾⃝🌺 *ᴅᴇᴠᴇʟᴏʟᴇʀ* : 𝑅𝐴𝐹𝐼, 𝐴𝑀𝐸𝐸𝑁
+┣𝕾⃝🌺 *ᴅᴇᴠᴇʟᴏʟᴇʀ* : JACKZ,BROKEN
 
 ┣𝕾⃝🌺 *Antilink* : ` + antilink + `
 
@@ -422,7 +422,7 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 
 │
 
-│   ❏�🤪𝐌𝐈𝐒𝐒 𝐇𝐄𝐋𝐄𝐍𝐀🤪❏
+│   ❏ANGELINA❏
 
 ╰──────────────────╯
 
