@@ -7,7 +7,7 @@ WHITE DEVIL ----»»» TERROR BOY
 const Ktb = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const axios = require ('axios')
-const White = require('../white');
+const amalbot = require('../amalbot');
 const LOAD_ING = "*✅️Connecting To INSTAGRAM*"
 const UPLOAD_ING = "*✅️Connected To INSTAGRAM* \n\n\n *DOWNLOADING & UPLOADING IN PROCESS...*"
 const instagram = async (url, key) => {
