@@ -90,7 +90,7 @@ All setvars are
  To get a song when your number is mentioned
  .setvar TAG_REPPLY:your jid 
 
-     *happy using Anjelina bot ❣️*
+     *happy using Angelina bot ❣️*
 
 
 
