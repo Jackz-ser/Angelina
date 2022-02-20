@@ -174,5 +174,4 @@ var i = Math.floor(31*Math.random())
             '```' + child + '```', MessageType.text
         );
     }));
-}
-/*
+}/*
