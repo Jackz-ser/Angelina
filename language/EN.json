@@ -240,13 +240,13 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*_Your bot is completly up-to-date_*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\n*To update type .update now*\n\n*Join Support Group Before Updating*\n*https://chat.whatsapp.com/H28lGpgjXDKEy8ZE4OtkPM*\n\nNEW CHANGES:\n```",
+            "NEW_UPDATE": "*New update available for Bot!*\n\n*To update type .update now*\n\nNEW CHANGES:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Angelina is updating....💖\n\nPLEASE WAIT.....",
+            "UPDATING": "_Your bot is updating....💖_",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*Angelina Updated ✅️*",
+            "UPDATED": "*Bot updated successfully ✅️*",
             "UPDATED_LOCAL": "*✅ Angelina Updated!*",
-            "AFTER_UPDATE": "Hey bro\n\n_I AM UPDATED_ PLEASE WAIT ANGELINA WILL RESTART AUTOMATICALLY✅️",
+            "AFTER_UPDATE": "_Your bot is restarting, please wait_",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
