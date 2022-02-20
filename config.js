@@ -70,6 +70,7 @@ module.exports = {
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
     WEL_GIF: process.env.WEL_GIF === undefined ? 'https://i.imgur.com/nErXUGj.mp4' : process.env.WEL_GIF,
     GIF_BYE: process.env.GIF_BYE === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.GIF_BYE,
+    FIND_KEY: process.env.FIND_KEY === undefined ? '' : process.env.FIND_KEY,
     ALLEMOJI: process.env.CMD_LIST === undefined ? 'Angelina🎗️/💝/✨/📝' : process.env.CMD_LIST,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     TAGPLK: process.env.TAG_HEADER === undefined ? 'Note this' : process.env.TAG_HEADER,
@@ -88,7 +89,6 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? '918075641889,0' : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    ZEKAIS_API: "e54845feb30a04f6e5b760b624b67a3f",
     SUPPORT: "918075641889",
     SUPPORT2: "919995515152",
     SUPPORT3: "905511384572-1621015274"
