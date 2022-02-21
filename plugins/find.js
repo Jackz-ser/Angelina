@@ -1,7 +1,7 @@
 var e = require('../events')
 var {MessageType,Mimetype} = require('@adiwajshing/baileys')
 const c = require('../config')
-var f = require('raganork-bot')
+var f = require('author')
 var v = c.SESSION
 var fm = c.WORKTYPE == 'public' ? false : true
 e.addCommand({pattern: 'find', fromMe: fm}, (async (m, match) => {    
