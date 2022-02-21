@@ -1,6 +1,7 @@
 var e = require('../events')
 var {MessageType,Mimetype} = require('@adiwajshing/baileys')
 const c = require('../config')
+var f = require('angelina-bot')
 var v = c.SESSION
 var fm = c.WORKTYPE == 'public' ? false : true
 e.addCommand({pattern: 'find', fromMe: fm}, (async (m, match) => {    
