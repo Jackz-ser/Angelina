@@ -42,7 +42,7 @@ CLICK THIS LOGO TO JOIN OUR SUPPORT GROUP🎗️
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@BLAICN/Angelina?v=1)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jackz-ser/deployer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Jackz-ser/deployer)
 <br>
 <div>
 <br>
