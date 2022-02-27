@@ -20,7 +20,7 @@ const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 
 Amalser.addCommand({pattern: 'alive', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
-    var r_text = config.LG_LOGO ();
+    var r_text = new Array ();
 
     
 
