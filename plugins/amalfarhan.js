@@ -18,15 +18,15 @@ const axios = require('axios');
 
 const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 
-Amalser.addCommand({pattern: 'al', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Amalser.addCommand({pattern: 'alive', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
-    var r_text = new Array ();
-
-    
+    var r_text = config.LG_LOGO ();
 
     
 
-    r_text[0] = "https://i.imgur.com/Tv7ejZF.jpeg";
+    
+
+    r_text[0] = "https://i.imgur.com/Tv7ejZF.jpeg" ;
     
     var i = Math.floor(80*Math.random())
 
@@ -82,7 +82,7 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 
 │
 
-┣𝕾⃝🌺 *ᴅᴇᴠᴇʟᴏʟᴇʀ* : JACKZ,BROKEN
+┣𝕾⃝🌺 *ᴏᴡɴᴇʀ* : `+config.OWNER+`
 
 ┣𝕾⃝🌺 *Antilink* : ` + antilink + `
 
@@ -100,25 +100,20 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 
 │      ▎▍▌▌▉▏▎▌▉▐▏▌▎
 
-│       
-
-│
-
 ╰──────────────────╮
 
   
 
 ╭──────────────────╯
 
-│ ◩ I AM ALIVE ◪
+│ ◩ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ: `+config.PHONE+` ◪
 
 ╭──────────────────╮
 
-│ 
+│ `+config.ALIVEMSG+`
 
-│ ALIVE MSG SET AYITILA😂😬
 
-│   ❏ANGELINA❏
+│   ❏ `+config.BOT+`❏
 
 ╰──────────────────╯
 
