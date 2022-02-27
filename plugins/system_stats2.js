@@ -1,6 +1,5 @@
 /* Amalser Bot
 Re-edit Amalser + muhammed-usrbot
-*/
 
 const LizaMwol = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
