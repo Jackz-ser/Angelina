@@ -352,7 +352,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     , MessageType.text);
                             } else {
                                 await conn.sendMessage(conn.user.jid, '*~______~ Angelina ~______~*' +
-                                    '\n*🌀 An error occured,report error to Jackz ser : wa.me/918075641889' +
+                                    '\n*🌀 An error occured,report error at https://chat.whatsapp.com/DB03ov1LUpO6ForNpdm601' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
