@@ -3,7 +3,7 @@ Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 Amalser - Amal
 Wa.me/+919895828468
-*/
+
 
 const Neotro = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
@@ -40,3 +40,4 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
        await message.client.sendMessage(message.jid, button, MessageType.listMessage)
     
     }));
+/*
