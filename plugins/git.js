@@ -33,7 +33,7 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,},
 
             var r_text = new Array ();
 
-                 r_text[0] = "*Bot git : https://github.com/Jackz-ser/Angelina*/n*Any error watch video on the bottom of bot git*/n*Deploying git: github.com/Jackz-ser/deployer*"; 
+                 r_text[0] = "*Bot git : https://github.com/Jackz-ser/Angelina*\n*Any error watch video on the bottom of bot git*\n*Deploying git: github.com/Jackz-ser/deployer*"; 
 
                      var i = Math.floor(1*Math.random())
 
