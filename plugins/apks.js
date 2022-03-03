@@ -285,7 +285,7 @@ Asena.addCommand({pattern: 'capcut', fromMe: false, dontAddCommandList: true}, (
       await message.sendMessage('💎 *PHOTOMATH* 💎\npremium unlocked.\n📌 bit.ly/drkphotomath');
    }));
 
-   Asena.addCommand({pattern: 'waplus', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-      await message.sendMessage('💎 *WHATSAPP PLUS* 💎\nmhatsapp mod.\n📌 bit.ly/drkWaPlus');
+   Asena.addCommand({pattern: 'modwhatsapp', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+      await message.sendMessage('💎 *WAR MOD WHATSAPP* 💎\nWhatsapp mod.\n📌 https://www.mediafire.com/file/ats6gbsnpd1ooay/%25C9%25A2%25CA%259C%25E1%25B4%2584%25E1%25B4%25A1_%25E1%25B4%258F%25EA%259C%25B0%25E1%25B4%2584_%25E2%259C%2597%25EA%259C%25B1%25E1%25B4%2598%25C9%25AA%25E1%25B4%2585%25E1%25B4%2587%25CA%258F_%25E1%25B4%258F%25EA%259C%25B0%25E1%25B4%2584_2.22.2.74.apk/file');
    }));
 }
