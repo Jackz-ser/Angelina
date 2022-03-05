@@ -1,4 +1,4 @@
-const skl = require('../events');
+/*const skl = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
@@ -47,3 +47,4 @@ skl.addCommand({ pattern: 'story ?(.*)', fromMe: sourav,dontAddCommandList: true
     var buffer = await get.skbuffer(res.result.data[value].url)
     await msg.client.sendMessage(msg.jid, buffer, type, { mimetype: mime, caption: '```Story '+count+'``` of '+user, quoted: msg.data});
     }));
+/*
