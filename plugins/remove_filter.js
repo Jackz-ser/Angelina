@@ -18,7 +18,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 var msg = ''
-if (Config.LANG == 'EN') msg = 'Links are not allowed here ❌'
+if (Config.LANG == 'EN') msg = 'Sorry, This is not allowed in this group🚯'
 if (Config.LANG == 'ML') msg = 'ക്ഷമിക്കണം, ഇത് ഇവിടെ അനുവദനീയമല്ല ❌'
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (Config.ANTI_KICK == 'true') {
