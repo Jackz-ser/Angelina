@@ -6,7 +6,7 @@ use this git under copyright
 
 dont change credit
 
-*/
+
 
 const Amalser= require('../events');
 
@@ -122,4 +122,4 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 }));                                                                 
                                                                               
                                                                               
-                                                                              
+*/                                                                              
