@@ -1,4 +1,4 @@
-/* codded by Amal
+ codded by Amal
 
 reedited by Amalser
 
@@ -121,8 +121,7 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 
 }));                                                                 
                                                                               
-                                                                              
-*/                                                                              
+                                                                                                                                                        
 
 
 const Asena = require('../events');
